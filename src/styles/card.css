@@ -1,0 +1,59 @@
+.img {
+  height: 150px;
+}
+/* Iphone */
+@media (min-width: 400px) {
+  .content .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* Ipad */
+@media (min-width: 500px) {
+  .content .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+
+/* computer */
+@media (min-width: 650px) {
+  .content .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.package-item {
+  text-align: center;
+  border-radius: 25px;
+  margin-right: 4px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 8px;
+  margin-left: 4px;
+  max-width: 100%;
+  height: auto;
+}
+
+.text {
+  margin: 50px;
+}
+.btn {
+  
+  background: none;
+  font-size: 17px;
+  font-family: "Gothic A1";
+  cursor: pointer;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(16, 209, 244, 0.5);
+  
+}
+.btn1,
+.btn2 {
+  color: #2843dd;
+}
+
+
+

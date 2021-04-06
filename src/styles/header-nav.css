@@ -1,0 +1,57 @@
+@media only screen and (min-width: 660px) {
+  .header {
+    grid-template-columns: 1fr 1fr 1fr; /* each fr is a equal space column. */
+  }
+}
+.introduction  {
+  background-color: #2f25a4;
+}
+
+.center {
+  text-align: center;
+}
+.h1 {
+  margin-top: 50px;
+  margin-left: 15px;
+  text-align: center;
+  padding: 5px;
+  font-family: "Gothic A1";
+  color: black;
+  
+  border-radius: 25px;
+  background-size: 0px;
+  
+}
+.h3 {
+  text-align: center;
+  padding: 5px;
+  font-family: "Gothic A1";
+  color: rgb(7, 7, 8);
+  
+  
+  
+  
+}
+.h4 {
+  text-align: left;
+  font-family: "Gothic A1";
+}
+.h {
+  text-align: center;
+  font-family: "Gothic A1";
+}
+.main-menu {
+  background-color: rgba(16, 209, 244, 0.5);
+  height: 25px;
+  line-height: 25px;
+  border-radius: 25px;
+  text-align: center;
+  font-family: "Gothic A1";
+  width: 100%;
+}
+
+.main-menu a {
+  text-decoration: none;
+  padding: 10px;
+  color: #2f25a4;
+}

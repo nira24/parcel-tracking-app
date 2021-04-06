@@ -1,0 +1,36 @@
+/* The search field */
+.search-bar input[type="text"] {
+  box-sizing: border-box;
+  display: inline-block;
+  width: calc(100% - 64px - 10px); /* 48px is the width of the search button */
+  height: 25px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 25px;
+  background-color: rgba(16, 209, 244, 0.5);
+  border: solid 0.5px white;
+  outline: none;
+}
+::placeholder {
+  color: #1042c0;
+}
+
+/* The submit button */
+.search-bar input[type="submit"] {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 64px;
+  height: 25px;
+  background-color: rgba(16, 209, 244, 0.5);
+  color: #1042c0;
+  border: solid 0.5px white;
+  border-radius: 25px;
+  text-align: center;
+  vertical-align: top;
+  text-decoration: none;
+  line-height: 25px;
+}
+.search-bar {
+  margin-top: 40px;
+  padding-bottom: 50px;
+}
